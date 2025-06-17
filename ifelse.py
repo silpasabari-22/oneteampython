@@ -41,8 +41,9 @@ elif a>70:
     print("C Grade")
 elif a>60:
     print("PASS")
-else a<60:
+else:
     print("you are failed")
+
 
 
 
