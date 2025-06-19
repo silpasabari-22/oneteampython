@@ -11,9 +11,8 @@
 
 
 # vowel=input("Enter a character ")
-# if(vowel in ['a','e','i','o','u']):
+# if(vowel in "aeiouAEIOU"):
 #     print("This is a VOWEL")
-
 
 
 
@@ -33,8 +32,29 @@
 #     print("you are not eligible to vote")
 
 
+# a=int(input("Enter first number "))
+# b=int(input("Enter second number "))
+# if a>b:
+#     print("first number is greatest")
+# else:
+#     print("second number is greatest")
 
 
+#  year=int(input("Enter a year :"))
+#  if year%4==0:
+#     print("This year is leap year")
+#  else:
+#      print("This year is not leap year")
 
 
+#write a python program to calculate the water bill based on the number of units consumed
 
+units=int(input("Enter the total units consumed "))
+bill=0
+if units<=100:
+    bill=units*5
+elif units<=200:
+    bill=500 + ((units-100)*8)
+else:
+    bill=1300+((units-200)*10)      #(100*5)+(100*8)
+print("Total water bill:", bill)

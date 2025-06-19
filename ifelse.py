@@ -31,6 +31,7 @@
 
 
 a=int(input("Enter the mark "))
+
 if a>100:
     print("INVALID")
 elif a>90:
