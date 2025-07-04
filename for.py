@@ -11,14 +11,14 @@
 #         num=num//10
 #     print(j)
 # else:
-#     print("Not a positive ")
+#     print("Not a positive ")+
 
          #MULTIPLICATION
 
 # num=int(input("Enter the number "))
-# for i in range(1,num+1):
-#     if i%2==0:
-#        print(i)
+# for i in range(1,11):
+#         print(f"{i}*{num}={i*num}")
+
 
          #MULTIPLICATION WITH LIMIT
 
@@ -125,10 +125,10 @@
 
 # n=5
 # for i in range(0,n):
-#         for j in range(0,i):
-#                 print(" ",end=" ")
+#         for j in range(i):
+#                 print("",end=" ")
 #         for k in range(0,n-i):
-#                 print("* ",end= " ")
+#                 print("*",end=" ")
 #         print()
 
 
@@ -141,30 +141,28 @@
 # for i in range(0,n):
 #         a=i+1
 #         for j in range(0,i+1):
-        
+#          a=i+1
 #               print(a,end=" ")
-#               a=a+1
 #         print()
+
 
                     #DIAMOND
 
-n=4
-for i in range(n):
-        for j in range(n-i):
-               print(" ",end=" ")
-        for k in range(i+1):
-               print("* ",end=" ")
-        print()
+# n=4
+# for i in range(0,n-1):
+#         for j in range(0,n-i):
+#                print("",end=" ")
+#         for k in range(i+1):
+#                print("*",end=" ")
+#         print()
 
-n=5
-for i in range(n):
-        for j in range(0,i):
-                print(" ",end=" ")
-        for k in range(0,n-i):
-                print("* ",end=" ")
-        print()
-
-
+# n=4
+# for i in range(n):
+#         for j in range(i+1):
+#                 print(" ",end="")
+#         for k in range(0,n-i):
+#                 print("* ",end= "")
+#         print()
 
 
                        #RHOMBUS
@@ -179,6 +177,94 @@ for i in range(n):
 #         print()
 
 
+                   #HOURGLASS PATTERN
+
+
+# n=5
+# for i in range(n):
+#         for j in range(i+1):
+#                 print(" ",end="")
+#         for k in range(0,n-i):
+#                 print("* ",end="")
+#         print()                
+# n=5
+# for i in range(0,n):
+#         for j in range(0,n-i):
+#                 print("",end=" ")
+#         for k in range(i+1):
+#                 print("*",end=" ")
+#         print()
 
 
 
+                 #HOLLOW FULL PYRAMID
+
+
+
+# n=5
+# for i in range(0,n):
+#         for j in range(0,n-i):
+#                 print("",end=" ")
+#         for k in range(0,n):
+#                if(k==0 or k==i or j==0):
+#                   print("*",end=" ")
+#                else:
+#                         print(" ",end=" ")
+#         print()
+
+
+              #HOLLOW INVERTED TRIANGLE
+
+
+# n=5
+# for i in range(0,n):
+#         print(" " * i, end="")
+#         for j in range(2 * (n-i) -1):
+#                 if j==0 or j==(2*( n-i)-2) or i==0:
+#                          print("*",end="")
+#                 else:
+#                       print(" ",end="")
+#         print()
+
+
+                #HOLLOW DIAMOND PYRAMID
+
+
+
+
+
+
+
+
+                #HOLLOW SQUARE PYRAMID
+
+# n=5
+# for i in range(0,n):
+#         for j in range(0,n):
+#                 if i==0 or i==n-1 or j==0 or j==n-1:
+#                    print("*",end=" ")
+#                 else:
+#                         print(" ",end=" ")
+#         print()
+
+
+                #PASCALS TRIANGLE
+
+# n=4
+# for i in range(n):
+#     print(" " * (n-i), end="")
+#     num=1
+#     for j in range(i+1):
+#         print(num,end=" ")
+#         num=num*(i-j)//(j+1)
+#     print()
+
+                # LETTER "S"
+
+# for i in range(7):
+#     if i == 0 or i == 3 or i == 6:
+#         print(" * * * ")
+#     elif i < 3:
+#         print("*     ")
+#     else: 
+#         print("      *")
