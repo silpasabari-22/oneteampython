@@ -1,4 +1,4 @@
-s='java'
+s='malayalam'
 d=dict()
 for k in s:
     if k.lower() in d:
