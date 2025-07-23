@@ -18,5 +18,15 @@
 #     a+=1
 # print(fact," ")
 
+
+          #FIBONACCI SERIOUS
+
+first,second=0,1
+print(first,second,end=" ")
+for i in range(8):
+      third=first+second
+      print(third,end=" ")
+      first,second=second,third
+
           #FIND PRIME NUMBER
 

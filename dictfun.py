@@ -205,30 +205,4 @@
 # global_fun()
 
 
-            #RECURSION
-
-
-# def fact(num):
-#       if num==1:
-#           return num
-#       else:
-#             return num*fact(num-1)
-# print(fact(5))
-
-
-
-# def fun():
-#       print("hello")
-#       fun()
-# fun()
-
-
-         #FIBONACCI SERIOUS
-
-first,second=0,1
-print(first,second,end=" ")
-for i in range(8):
-      third=first+second
-      print(third,end=" ")
-      first,second=second,third
 
