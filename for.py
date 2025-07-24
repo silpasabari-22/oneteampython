@@ -30,14 +30,14 @@
 
            #REVERSE STRING
 
-# string=input("enter a string:")
-# reverse=""
-#for i in text:
-#     reverse=i+reverse
-# print("reversed string is : ",reverse)
+string=input("enter a string:")
+reverse=""
+for i in string:
+    reverse=i+reverse
+print("reversed string is : ",reverse)
 
-# a=text[::-1]
-# print(a)
+a=string[::-1]
+print(a)
 
 
 

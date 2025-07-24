@@ -60,7 +60,59 @@ string=lambda s:"true" if s[0]=="A" or s[0]=="a" else "false"
 
            #RETURNS THE MAX NUMBER
 
+def max_(list):
+    return max(list)
+# print(max_([3,67,98,56,76]))
 
 
+          #check vowels in a string
+
+def string_(s):
+    count=0
+    vowels="AEIOUaeiou"
+
+    for i in s:
+        if i in vowels:
+            count=count+1
+    return count
+        
+# print(string_("apple"))
 
 
+          # even number from a list
+
+
+def even(list):
+    return [x for x in list if x%2==0]
+# print(even([10,21,31,42]))
+
+       #power of a number
+
+def power(a, b):
+    num=1
+    for i in range(b):
+        num=num*a
+    return num
+# print(power(2,3))
+
+
+               #REVERSE A STRING
+
+def rev(s):
+    if len(s)==0:
+        return s 
+    else:
+       return rev(s[1:])+s[0]
+# print(rev("python"))
+
+
+        #TO CHECK IF A NUMBER IS PALINDROME
+
+
+def palindrome(n):
+   
+    if n==n[::-1]:
+       return True
+    else:
+        return False
+print(palindrome("121"))
