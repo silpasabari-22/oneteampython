@@ -73,7 +73,7 @@
 # elif units<=200:
 #     bill=500 + ((units-100)*8)
 # else:
-#     bill=1300+((units-200)*10)      #(100*5)+(100*8)
+#     bill=1300+((units-200)*10)             #(100*5)+(100*8)
 # print("Total water bill:", bill)
 
 
