@@ -4,8 +4,8 @@
 #     def display(self):
 #         print("ID:%d\nName:%s"%(self.id,self.name))
 # emp=Employee()
-# del emp.id
-# del emp.name           #DELETE THE OBJECT
+# # del emp.id
+# # del emp.name           
 # emp.display()
 
 
@@ -234,21 +234,18 @@
          #ABSTRACTION
 
 
-from abc import ABC,abstractmethod
-class Animal(ABC):
-    @abstractmethod 
-    def make_sound(self):
-        pass
-class Dog(Animal):
-    def make_sound(self):
-        return "Boow!"
-class Cat(Animal):
-    def make_sound(self):
-        return "Meow!"
-d=Dog()
-c=Cat()
-print(d.make_sound())
-print(c.make_sound())
-
-
-
+# from abc import ABC,abstractmethod
+# class Animal(ABC):
+#     @abstractmethod 
+#     def make_sound(self):
+#         pass
+# class Dog(Animal):
+#     def make_sound(self):
+#         return "Boow!"
+# class Cat(Animal):
+#     def make_sound(self):
+#         return "Meow!"
+# d=Dog()
+# c=Cat()
+# print(d.make_sound())
+# print(c.make_sound())
